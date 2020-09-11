@@ -207,7 +207,7 @@ end
 #   big_foot_size = 0 
  game_hash.each do |key, value|
               #binding.pry
-    value[:players].each do |key, value|              #[1][:shoe]
+    value[:players].each do |player|              #[1][:shoe]
     binding.pry 
   end 
   
