@@ -216,7 +216,7 @@ big_foot_size = 0
       
       
     binding.pry 
-  end 
+end 
   
 #   value[:players]
 #               binding.pry
@@ -229,6 +229,3 @@ big_foot_size = 0
 #         return big_foot_player[:rebound] 
 #         binding.pry 
 #       #end
-#     end
-   end 
- end 
