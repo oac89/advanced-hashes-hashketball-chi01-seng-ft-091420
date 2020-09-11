@@ -188,8 +188,6 @@ def new_hash
   
 
 def player_stats(player_name)
-  
- 
   new_hash.each do |key, value| 
     value[:players].each do |player|
       if player[:player_name] == player_name 
