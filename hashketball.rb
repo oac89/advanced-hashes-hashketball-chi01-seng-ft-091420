@@ -202,7 +202,7 @@ def player_stats(players_name)
 end 
 
  def big_shoe_rebounds
-   big_foot = 0 
+   big_foot_size = 0 
  game_hash.each do |key, value|
    value[:players].each do |big_foot_player|
     if big_foot_player[:shoe] > big_foot 
