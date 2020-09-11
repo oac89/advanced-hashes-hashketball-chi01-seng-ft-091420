@@ -215,12 +215,8 @@ def big_shoe_rebounds
       end 
       #return big_foot_size value[:player_name]
       end
-      
-      
-    binding.pry 
-  end 
-end
 end 
+ 
   
 #   value[:players]
 #               binding.pry
