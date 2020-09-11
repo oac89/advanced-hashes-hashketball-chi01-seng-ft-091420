@@ -201,20 +201,22 @@ def player_stats(players_name)
   end
 end 
 
- def big_shoe_rebounds
-   big_foot_size = 0 
- game_hash.each do |key, value|
-   value[:players]
-              binding.pry
 
-   #.each do |big_foot_player, another_value|
+
+ def big_shoe_rebounds
+#   big_foot_size = 0 
+# game_hash.each do |key, value|
+#   value[:players]
+#               binding.pry
+
+#   #.each do |big_foot_player, another_value|
   
-  if big_foot_player[:shoe] > big_foot_size 
+#   if big_foot_player[:shoe] > big_foot_size 
       
-      binding.pry
-        return big_foot_player[:rebound] 
-        binding.pry 
-      #end
-    end
-  end 
-end 
+#       binding.pry
+#         return big_foot_player[:rebound] 
+#         binding.pry 
+#       #end
+#     end
+#   end 
+# end 
