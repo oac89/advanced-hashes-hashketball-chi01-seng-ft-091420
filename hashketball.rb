@@ -208,7 +208,7 @@ end
     if big_foot_player[:shoe] > big_foot_size 
       
       binding.pry
-        return big_foot_player value[:rebound] 
+        return big_foot_player[:rebound] 
         binding.pry 
       end
     end
