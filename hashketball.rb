@@ -208,7 +208,7 @@ end
  game_hash.each do |key, value|
               #binding.pry
     value[:players].each do |player|  
-      player[:shoe][0] 
+      player value[:shoe][0] 
       value[:shoe]
     binding.pry 
   end 
