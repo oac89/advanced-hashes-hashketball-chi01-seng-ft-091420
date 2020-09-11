@@ -193,11 +193,8 @@ def player_stats(players_name)
   game_hash.each do |key, value| 
     value[:players].each do |player|
       if player[:player_name] == players_name 
-        binding.pry 
-        #players_name ? players_name =               #value[:players_name] : 
-      
-              
-        
+        player 
+       
       
     end 
    end
