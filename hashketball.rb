@@ -200,9 +200,8 @@ def player_stats(player_name)
       end 
      end
    end
-   
-
- end
+  end
+end 
 
 # def big_shoe_rebounds(player)
 #   game_hash.find do |key, value|
