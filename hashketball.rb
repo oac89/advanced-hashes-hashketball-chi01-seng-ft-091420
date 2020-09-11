@@ -186,6 +186,7 @@ end
 
 def new_hash
   
+  
 
 def player_stats(players_name)
   new_hash.each do |key, value| 
