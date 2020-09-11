@@ -210,6 +210,7 @@ big_foot_size = 0
     value[:players].each do |player|  
       if player[:shoe][0] > big_foot_size
         player[:shoe][0] = big_foot_size 
+      end 
       return big_foot_player value[:player_name]
       end
       
