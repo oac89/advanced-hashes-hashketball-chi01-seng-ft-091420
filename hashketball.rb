@@ -200,3 +200,20 @@ def player_stats(players_name)
    end
   end
 end 
+
+ def big_shoe_rebounds(player)
+   big_foot = 0 
+ game_hash.each do |key, value|
+    game_hash.each do |key, value| 
+    value[:players].each do |player|
+      if player[:player_name] > big_foot 
+        return player 
+#     player[:shoe] < value[:player_name][:shoe]
+#     if big_foot 
+#     end 
+# end     
+#       return value[:rebounds] == big_foot
+# #       end
+# #     end
+# #   end 
+# end 
