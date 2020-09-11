@@ -206,17 +206,17 @@ end
 def big_shoe_rebounds
   big_foot_size = 0 
   big_foot_boards = 0
- game_hash.each do |key, value|
+  game_hash.each do |key, value|
               #binding.pry
     value[:players].each do |player|  
       if player[:shoe] > big_foot_size 
         big_foot_size = player[:shoe] 
         big_foot_boards = player[:rebounds]
-       end 
-        
       end 
+        
+    end 
       return big_foot_boards 
-      end
+  end
 end 
  
-end   
+  
