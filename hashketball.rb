@@ -184,12 +184,13 @@ end
   jersey_numbs 
 end
 
-def new_hash
- game_hash[:home][:players].merge(game_hash[:away][:players])
-end 
+# def new_hash
+# game_hash[:home][:players].merge(game_hash[:away][:players])
+# end 
   
 
 def player_stats(players_name)
+  new_hash = game_hash[:home][:players].merge(game_hash[:away][:players])
   new_hash.each do |key, value| 
     value[:players].each do |player|
       if player[:player_name] == players_name 
