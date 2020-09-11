@@ -209,6 +209,7 @@ big_foot_size = 0
               #binding.pry
     value[:players].each do |player|  
       if player[:shoe][0] > big_foot_size
+        binding.pry 
         player[:shoe][0] = big_foot_size 
       end 
       return big_foot_player value[:player_name]
