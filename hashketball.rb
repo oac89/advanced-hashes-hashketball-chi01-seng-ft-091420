@@ -206,8 +206,9 @@ end
  game_hash.each do |key, value|
    value[:players].each do |big_foot_player|
     if big_foot_player[:shoe] > big_foot_size 
+      
       binding.pry
-        return big_foot_player[:rebound] 
+        return big_foot_player value[:rebound] 
         binding.pry 
       end
     end
