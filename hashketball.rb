@@ -205,6 +205,7 @@ end
    big_foot = 0 
  game_hash.each do |key, value|
    value[:players]
+   binding.pry
     game_hash.each do |key, value| 
     value[:shoe].each do |player|
       if big_foot_player[:shoe] > big_foot 
