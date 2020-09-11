@@ -218,14 +218,3 @@ def big_shoe_rebounds
 end 
  
   
-#   value[:players]
-#               binding.pry
-
-#   #.each do |big_foot_player, another_value|
-  
-#   if big_foot_player[:shoe] > big_foot_size 
-      
-#       binding.pry
-#         return big_foot_player[:rebound] 
-#         binding.pry 
-#       #end
