@@ -184,7 +184,7 @@ end
   jersey_numbs 
 end
 
-def new_hash
+def new_hash(hash)
   game_hash[:home][:players].merge(game_hash[:away][:players])
 end 
   
