@@ -194,7 +194,7 @@ def player_stats(players_name)
     value[:players].each do |player|
       if player[:player_name] == players_name 
         binding.pry 
-        players_name ? players_name =               value[:players_name] : 
+        #players_name ? players_name =               #value[:players_name] : 
       
               
         
