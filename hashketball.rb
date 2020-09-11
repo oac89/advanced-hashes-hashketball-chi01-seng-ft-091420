@@ -204,14 +204,3 @@ def player_stats(players_name)
 end
 
 
-# def big_shoe_rebounds(player)
-#   game_hash.find do |key, value|
-#     player[:shoe] < value[:player_name][:shoe]
-#     if big_foot 
-#     end 
-# end     
-#       return value[:rebounds] == big_foot
-# #       end
-# #     end
-# #   end 
-# end 
