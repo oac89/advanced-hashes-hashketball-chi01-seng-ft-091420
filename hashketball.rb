@@ -206,7 +206,7 @@ end
  game_hash.each do |key, value|
    value[:players]
     game_hash.each do |key, value| 
-    value[:shoe].each do |big_foot_player|
+    value[:shoe].find do |big_foot_player|
             binding.pry 
 
       if big_foot_player[:shoe] > big_foot 
