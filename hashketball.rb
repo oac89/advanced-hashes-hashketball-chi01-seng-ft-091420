@@ -208,8 +208,8 @@ big_foot_size = 0
  game_hash.each do |key, value|
               #binding.pry
     value[:players].each do |player|  
-      if player[:shoe][0] > big_foot_player
-        player[:shoe][0] = big_foot_player
+      if player[:shoe][0] > big_foot_size
+        player[:shoe][0] = big_foot_size 
       return big_foot_player value[:player_name]
       end
       
