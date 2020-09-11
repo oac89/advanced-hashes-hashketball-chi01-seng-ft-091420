@@ -208,12 +208,13 @@ end
               binding.pry
 
    #.each do |big_foot_player, another_value|
+  
   if big_foot_player[:shoe] > big_foot_size 
       
       binding.pry
         return big_foot_player[:rebound] 
         binding.pry 
-      end
+      #end
     end
   end 
 end 
