@@ -206,7 +206,7 @@ end
  game_hash.each do |key, value|
    value[:players].each do |big_foot_player|
     if big_foot_player[:shoe] > big_foot_size 
-        return big_foot[:rebound] 
+        return big_foot_player[:rebound] 
       end
     end
   end 
