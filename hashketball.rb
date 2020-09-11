@@ -216,7 +216,8 @@ big_foot_size = 0
       
       
     binding.pry 
-end 
+  end 
+end
   
 #   value[:players]
 #               binding.pry
