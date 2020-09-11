@@ -212,7 +212,7 @@ big_foot_size = 0
         binding.pry 
         player[:shoe][0] = big_foot_size 
       end 
-      return big_foot_player value[:player_name]
+      return big_foot_size value[:player_name]
       end
       
       
